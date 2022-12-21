@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title> Twilio Sms Documentation</title>
+
+    <link href="assets/css/page.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" href="assets/img/favicon.png">
+</head>
+
+<body data-spy="scroll" data-target=".nav-sidebar" data-offset="100">
+
+
+    <header class="header" style="background-color: #474d6f">
+        <div class="container">
+            <!-- <img src="assets/img/logo 2.png" style="width: 140px; margin-bottom: 20px;" alt=""> -->
+            <h1 style="color: white;"> Twilio Sms Documentation</h1>
+
+        </div>
+    </header>
+    <!-- /.header -->
+
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="row">
+
+
+                <!--
+          |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+          | Sidebar
+          |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+          !-->
+                <div class="col-md-4 col-xl-3">
+                    <aside class="sidebar sidebar-expand-md sidebar-sticky pr-md-4 br-1">
+                        <div class="sidebar-body">
+                            <ul class="nav nav-sidebar nav-sidebar-hero nav-sidebar-pill">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#plugin-demo">Plugin Demo  </a>
+
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#authentication"> Account Authentication </a>
+
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#sendmsg"> How to send Message </a>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+
+
+                <!--
+          |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+          | Content
+          |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+          !-->
+                <div class="col-md-7 col-xl-8 ml-md-auto py-8">
+                    <h2 id="plugin-demo">Plugin Demo</h2>
+                    <p class="lead-2">
+                        <br> * I am attaching the short demo video, how it work, Please watch it. <br><br>
+
+                        <video controls autoplay>
+                            <source src="assets/edit-video.mp4" type="video/mp4"> 
+                           
+                        </video>
+                    </p>
+
+
+                    <hr class="hr-dash my-7">
+
+
+                    <h2 id="authentication">Twilio Account Authentication</h2>
+                    <p>
+                        You can easily authenticate your twilio account detail by following the listed steps.
+                        <ul>
+                            <li>
+                                Click on the Twilio SMS > Twilio Settings
+                            </li>
+                            <li>
+                                You will see 'Twilio SID' and 'Twilio Token' input fields in Twilio Settings Option. <br>
+                                <img src="assets/img/pic1.png" style="width: 100%; margin: 20px 0px; border: 1px solid #d3d3d3;" alt="">
+                            </li>
+                            <li>
+                                Add your Twilio SID and Token then click on Save Data button
+                            </li>
+                        </ul>
+                    </p>
+
+
+
+
+                    <h2 id="sendmsg">How to send Message</h2>
+
+                    <p>
+                        The whole Twilio SMS plugin is dymaically managed for the admin panel.You can easily send the message to the person you want.
+                        <br> I am lisiting the steps to send message with twilio.
+                        <ul>
+                            <li>
+                                Make sure you are already save the twilio authentication settings in Twilio SMS > Twilio Settings.
+                            </li>
+                            <li>
+                                Add your Twilio number that Twilio App provide you.
+                          </li>
+                            <li>
+                                Now, Add the number of the user you want to send message.
+                                <br>
+                            </li>
+                            <li>
+                                Type message you want to send.
+                                <br>
+                            </li>
+                            <li>
+                                If you want to send message to sms just click on SMS MESSAGE button.
+                                <br>
+                                if you want to send message through Whatsapp Add your twilio watsapp number then click on SEND WHATSAPP button.
+                                <img src="assets/img/pic2.png" style="width: 100%; margin: 20px 0px; border: 1px solid #d3d3d3;" alt="">
+                            </li>
+
+                        </ul>
+
+                    </p>
+
+                    
+    </main>
+    <!-- /.main-content -->
+
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-auto">
+                    <hr class="w-25 d-lg-none"> © <a href="#"> Ranksol </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /.footer -->
+
+
+    <!-- Scripts -->
+    <script src="assets/js/page.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+
+</html>
